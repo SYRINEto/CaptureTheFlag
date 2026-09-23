@@ -1,11 +1,52 @@
-/Library/
-/Temp/
-/Obj/
-/Build/
-/Builds/
-/Logs/
-/UserSettings/
-/results/
-/venv/
+# ==== Unity ====
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]serSettings/
+[Mm]emoryCaptures/
+
+# Fichiers de projet Visual Studio / Rider générés automatiquement
+.vs/
 *.csproj
 *.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Fichiers auto-générés Unity
+sysinfo.txt
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Fichiers de build spécifiques à Crashlytics
+crashlytics-build.properties
+
+# ==== Python / ML-Agents ====
+# Environnement virtuel Python (à recréer sur chaque machine, ne jamais versionner)
+projet/
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Résultats d'entraînement : très volumineux (checkpoints .pt, .onnx par dizaines)
+# On garde uniquement le modèle final si besoin, voir note plus bas
+results/
+
+# ==== Divers ====
+.DS_Store
+Thumbs.db
+Assets/_Recovery/
+Assets/ML-Agents/Timers/

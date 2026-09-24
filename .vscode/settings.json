@@ -67,5 +67,8 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "MachineLearning.slnx"
+    "dotnet.defaultSolution": "MachineLearning.slnx",
+    "csharp-dev-tools.solutionViewer.selectedWorkspaceSolutions": [
+        "CaptureTheFlag.sln"
+    ]
 }

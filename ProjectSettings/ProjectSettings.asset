@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: 7b943a4f587f48649a4e4c44d8079f80
+  productGUID: c8c0e12c0e86d3046ad0d28f0fd07cdf
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: CaptureTheFlag
+  productName: agent capture flag
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -847,14 +847,14 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: CaptureTheFlag
+  metroPackageName: agent capture flag
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: CaptureTheFlag
+  metroApplicationDescription: agent capture flag
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -925,11 +925,11 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: df49af78-e539-4f1d-b8e8-6e747c311b9f
+  cloudProjectId: 957cfa77-4ff5-411f-9e63-ef3dabddf6f3
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: CaptureTheFlag 2026-09-11_15-53-57
-  organizationId: unity_7e84e5a1e4147dfc171a
+  projectName: agent capture flag
+  organizationId: waelbenz2
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}

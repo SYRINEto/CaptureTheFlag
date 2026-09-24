@@ -4,16 +4,16 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - Flag
+  - flag
+  - defender
+  - wall
+  - obstacle
   - SafeZone
-  - Defender
-  - Wall
-  - Obstacle
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Wall
+  - wall
   - Water
   - UI
   - 

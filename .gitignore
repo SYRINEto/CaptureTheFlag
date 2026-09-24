@@ -47,5 +47,6 @@ results/
 
 # ==== Divers ====
 .DS_Store
-Thumbs.dbAssets/_Recovery/
+Thumbs.db
+Assets/_Recovery/
 Assets/ML-Agents/Timers/

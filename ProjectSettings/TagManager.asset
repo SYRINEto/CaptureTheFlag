@@ -4,17 +4,29 @@
 TagManager:
   serializedVersion: 3
   tags:
+<<<<<<< HEAD
   - Wall
   - Slide
   - Flag
   - SafeZone
   - Defender
   - Obstacle
+=======
+  - flag
+  - defender
+  - wall
+  - obstacle
+  - SafeZone
+>>>>>>> main
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
+<<<<<<< HEAD
   - 
+=======
+  - wall
+>>>>>>> main
   - Water
   - UI
   - 

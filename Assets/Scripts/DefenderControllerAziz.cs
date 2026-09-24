@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class DefenderController : MonoBehaviour
+public class DefenderControllerAziz : MonoBehaviour
 {
     [Header("Wander Settings")]
     [SerializeField] private float moveSpeed = 0.1f;

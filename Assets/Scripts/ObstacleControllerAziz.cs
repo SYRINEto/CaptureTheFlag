@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ObstacleController : MonoBehaviour
+public class ObstacleControllerAziz : MonoBehaviour
 {
     [Header("Wander Settings")]
     [SerializeField] private float moveSpeed = 0.15f;

@@ -8,8 +8,8 @@ public class AgentLearn : Agent
     [Header("Références Scène")]
     [SerializeField] private Transform flag;
     [SerializeField] private Transform safeZone;
-    [SerializeField] private DefenderController[] defenders;
-    [SerializeField] private ObstacleController[] obstacles;
+    [SerializeField] private DefenderControllerAziz[] defenders;
+    [SerializeField] private ObstacleControllerAziz[] obstacles;
 
     [Header("Feedback visuel")]
     [SerializeField] private Renderer floorRenderer;
@@ -77,7 +77,7 @@ public class AgentLearn : Agent
 
         if (obstacles == null || obstacles.Length == 0)
         {
-            obstacles = Object.FindObjectsByType<ObstacleController>(FindObjectsSortMode.None);
+            obstacles = Object.FindObjectsByType<ObstacleControllerAziz>(FindObjectsSortMode.None);
         }
     }
 
@@ -406,7 +406,7 @@ public class AgentLearn : Agent
         }
 
         // 4. Moving obstacle collision check (tag: obstacle or ObstacleController component)
-        if ((other.CompareTag("obstacle") || other.GetComponent<ObstacleController>() != null) && !episodeEnding)
+        if ((other.CompareTag("obstacle") || other.GetComponent<ObstacleControllerAziz>() != null) && !episodeEnding)
         {
             GiveReward(obstacleCollisionPenalty, $"Touché par obstacle {other.name}");
 
@@ -471,7 +471,7 @@ public class AgentLearn : Agent
             episodeEnding = true;
             StartCoroutine(EndEpisodeAfterDelay(0.3f));
         }
-        else if ((collision.gameObject.CompareTag("obstacle") || collision.gameObject.GetComponent<ObstacleController>() != null) && !episodeEnding)
+        else if ((collision.gameObject.CompareTag("obstacle") || collision.gameObject.GetComponent<ObstacleControllerAziz>() != null) && !episodeEnding)
         {
             GiveReward(obstacleCollisionPenalty, $"Touché par obstacle {collision.gameObject.name}");
 
